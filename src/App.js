@@ -1,12 +1,13 @@
 import Header from "./components/Header";
 import Navigation from "./components/Navigation3";
-import Contact from "./components/Contact";
+import Contact from "./components/Contact/Contact";
 import Resume from "./components/Resume";
-import Project from "./components/Project";
+import Project from "./components/Project/Project";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+// import './index.css';
 
 function App() {
   const [currentPage, setCurrentPage] = useState("Project");
@@ -27,20 +28,6 @@ function App() {
   }
   return (
     <div className="App">
-      {/* <button
-        onClick={() => {
-          setCurrentPage("About");
-        }}
-      >
-        switch
-      </button>
-      <button
-        onClick={() => {
-          setCurrentPage("Project");
-        }}
-      >
-        switch
-      </button> */}
       <Navigation setCurrentPage={setCurrentPage} />
       <Header />
       {render()}
