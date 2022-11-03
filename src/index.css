@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /* @layer base {
   html {
@@ -40,7 +40,7 @@ html {
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
@@ -52,7 +52,11 @@ body {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: 500;
 }
 
@@ -64,14 +68,20 @@ section {
   margin-top: 8rem;
 }
 
-section > h2, section > h5 {
+section > h2,
+section > h5 {
   text-align: center;
-  color: var(--color-light);
+  color: var(--color-primary);
 }
 
 section > h2 {
   color: var(--color-primary);
   margin-bottom: 3rem;
+}
+
+h3 {
+  color: var(--color-light);
+
 }
 
 .text-light {
@@ -115,9 +125,8 @@ img {
   object-fit: cover;
 }
 
-
 /* MD DEVICES */
-@media screen and (max-width: 1024px) { 
+@media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
   }
@@ -128,7 +137,7 @@ img {
 }
 
 /* SM DEVICES */
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }
@@ -137,4 +146,3 @@ img {
     margin-top: 2rem;
   }
 }
-
