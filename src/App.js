@@ -1,4 +1,4 @@
-import Header from "./components/Header";
+import Header from "./components/Header/Header";
 import Navigation from "./components/Navigation3";
 import Contact from "./components/Contact/Contact";
 import Resume from "./components/Resume";
