@@ -1,10 +1,10 @@
 import Header from "./components/Header/Header";
-import Navigation from "./components/Navigation3";
+import Navigation from "./components/Navigation/Navigation";
 import Contact from "./components/Contact/Contact";
-import Resume from "./components/Resume";
+import Resume from "./components/Resume/Resume";
 import Project from "./components/Project/Project";
 import Footer from "./components/Footer";
-import About from "./components/About";
+import About from "./components/About/About";
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import './index.css';
@@ -28,8 +28,8 @@ function App() {
   }
   return (
     <div className="App">
-      <Navigation setCurrentPage={setCurrentPage} />
       <Header />
+      <Navigation setCurrentPage={setCurrentPage} />
       {render()}
       <Footer />
     </div>

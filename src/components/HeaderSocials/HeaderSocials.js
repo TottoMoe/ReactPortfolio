@@ -1,6 +1,7 @@
 import { BsLinkedin } from 'react-icons/bs'
 import { FaGithub } from 'react-icons/fa'
 import { FaStackOverflow } from 'react-icons/fa'
+import './HeaderSocials.css'
 
 const HeaderSocials = () => {
   return (

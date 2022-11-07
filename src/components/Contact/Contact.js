@@ -1,13 +1,15 @@
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/esm/Button";
 import './Contact.css';
+import '../HeaderSocials/HeaderSocials'
+import HeaderSocials from "../HeaderSocials/HeaderSocials";
 
-function Contact(prop) {
+
+function Contact(props) {
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
-
       <div className="container contact__container">
         <Form>
           <Form.Group className="mb-3" controlId="contactForm.ControlInput1">
@@ -27,6 +29,8 @@ function Contact(prop) {
           </Button>
         </Form>
       </div>
+      
+      <HeaderSocials />
     </section>
   );
 }

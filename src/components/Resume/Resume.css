@@ -1,0 +1,51 @@
+
+/*==========Resume==========*/
+.skill__container {
+  display: grid;
+  grid-template-columns: 1ft 1ft;
+  gap: 2rem;
+}
+
+.skill__container > div {
+  background: var(--color-bg-variant);
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.skill__container > div:hover {
+  background: transparent;
+  border-color: var(--color-bg-variant);
+  cursor: default;
+}
+
+.skill__container > div h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-primary);
+}
+
+.skill__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+}
+
+.skill__details {
+  display: flex;
+  gap: 1rem;
+}
+
+.skill__details-icon {
+  margin-top: 6px;
+  color: var(--color-primary);
+}
+
+/*==========CTA==========*/
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}

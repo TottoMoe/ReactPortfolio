@@ -6,9 +6,9 @@ function Footer(prop) {
   return (
     <Card className="text-center">
       <Card.Body>
-        <Card.Title>Special title treatment</Card.Title>
+        <Card.Title>Let's connect</Card.Title>
         <Card.Text>
-          With supporting text below as a natural lead-in to additional content.
+          jennydhj@gmail.com
         </Card.Text>
 
         <div className="social-icon">

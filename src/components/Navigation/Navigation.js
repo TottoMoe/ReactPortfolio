@@ -7,7 +7,7 @@ function Navigation({ setCurrentPage }) {
   return (
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
       <Container>
-        <Navbar.Brand href="#home">Jenny Deng</Navbar.Brand>
+        <Navbar.Brand href="#home"></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
@@ -45,9 +45,6 @@ function Navigation({ setCurrentPage }) {
               Resume
             </Nav.Link>
           </Nav>
-          <button className="vvd" onClick={() => console.log("connect")}>
-            <span>Let's Connect</span>
-          </button>
         </Navbar.Collapse>
       </Container>
     </Navbar>

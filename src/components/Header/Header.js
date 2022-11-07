@@ -1,18 +1,36 @@
-import CTA from './CTA';
-import HeaderSocial from './HeaderSocials';
-import './Header.css';
+import "./Header.css";
+import Card from 'react-bootstrap/Card';
+import HeaderPhoto from '../../assets/airballoon.jpg';
 
+// function Header() {
+//   return (
+//     <header>
+//       <div className="bg-dark text-white">
+//         <Card.Img src="./airblloon1.jpg" alt="Card image" />
+//         <Card.ImgOverlay>
+//           <Card.Title>Card title</Card.Title>
+//           <Card.Text>
+//             This is a wider card with supporting text below as a natural lead-in
+//             to additional content. This content is a little bit longer.
+//           </Card.Text>
+//           <Card.Text>Last updated 3 mins ago</Card.Text>
+//         </Card.ImgOverlay>
+//       </div>
+//     </header>
+//   );
+// }
+
+// export default Header;
 function Header() {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello I'm</h5>
-        <h1>Jenny Deng</h1>
-        <h5 className="text-light">Fullstack Developer</h5>
-        {/* <CTA /> */}
-        <HeaderSocial />
-
-        <a href="#contact" className="scroll__down">Scroll Down</a>
+        <Card.Img src={HeaderPhoto} alt="Card image" />
+        <Card.ImgOverlay>
+          <h5>Hello I'm</h5>
+          <h1>Jenny Deng</h1>
+          <h5 className="text-light">Fullstack Developer</h5>
+        </Card.ImgOverlay>
       </div>
     </header>
   );

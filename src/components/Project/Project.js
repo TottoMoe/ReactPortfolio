@@ -1,14 +1,15 @@
 import React from 'react';
 import './Project.css';
+import '../HeaderSocials/HeaderSocials'
 import pj14 from '../../assets/pj14.png';
 import pj18 from "../../assets/pj14.png";
+import HeaderSocials from '../HeaderSocials/HeaderSocials';
 
-function Project(props) {
+function Project() {
   return (
     <section id="protfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
-
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
@@ -16,12 +17,17 @@ function Project(props) {
           </div>
           <h3>This is a portfolio item title</h3>
           {/* add target='_blank' */}
-          <a href="https://github.com/TottoMoe/MVCTechBlog" className="btn">
+          <a
+            href="https://github.com/TottoMoe/MVCTechBlog"
+            className="btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Github
           </a>
           <a
             href="https://github.com/TottoMoe/MVCTechBlog"
-            className="btn btn-primary"
+            className="btn btn-secondary"
           >
             Live Demo
           </a>
@@ -37,7 +43,7 @@ function Project(props) {
           </a>
           <a
             href="https://github.com/TottoMoe/MVCTechBlog"
-            className="btn btn-primary"
+            className="btn btn-secondary"
           >
             Live Demo
           </a>
@@ -53,7 +59,7 @@ function Project(props) {
           </a>
           <a
             href="https://github.com/TottoMoe/MVCTechBlog"
-            className="btn btn-primary"
+            className="btn btn-secondary"
           >
             Live Demo
           </a>
@@ -69,7 +75,7 @@ function Project(props) {
           </a>
           <a
             href="https://github.com/TottoMoe/MVCTechBlog"
-            className="btn btn-primary"
+            className="btn btn-secondary"
           >
             Live Demo
           </a>
@@ -85,7 +91,7 @@ function Project(props) {
           </a>
           <a
             href="https://github.com/TottoMoe/MVCTechBlog"
-            className="btn btn-primary"
+            className="btn btn-secondary"
           >
             Live Demo
           </a>
@@ -101,12 +107,13 @@ function Project(props) {
           </a>
           <a
             href="https://github.com/TottoMoe/MVCTechBlog"
-            className="btn btn-primary"
+            className="btn btn-secondary"
           >
             Live Demo
           </a>
         </article>
       </div>
+      <HeaderSocials />
     </section>
   );
 }
