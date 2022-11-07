@@ -51,7 +51,7 @@ function Resume() {
               </article>
               <article className="skill__details">
                 <BsPatchCheckFill className="skill__details-icon" />
-                <h4> Express </h4>
+                <h4> RESTful </h4>
               </article>
               <article className="skill__details">
                 <BsPatchCheckFill className="skill__details-icon" />
@@ -63,11 +63,11 @@ function Resume() {
               </article>
               <article className="skill__details">
                 <BsPatchCheckFill className="skill__details-icon" />
-                <h4> Java </h4>
+                <h4> MVC </h4>
               </article>
               <article className="skill__details">
                 <BsPatchCheckFill className="skill__details-icon" />
-                <h4> jQuery </h4>
+                <h4> PWA </h4>
               </article>
             </div>
           </div>

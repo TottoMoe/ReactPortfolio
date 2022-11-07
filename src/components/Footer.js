@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa";
 
 function Footer() {
   return (
-    <Card className="text-center">
+    <Card className="text-center bg-dark text-white">
       <Card.Body>
         <Card.Title>Let's connect</Card.Title>
         <Card.Text>jennydhj@gmail.com</Card.Text>
