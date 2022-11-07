@@ -1,13 +1,13 @@
-import Header from "./components/Header/Header";
-import Navigation from "./components/Navigation/Navigation";
-import Contact from "./components/Contact/Contact";
+import Header from "./components/Header";
+import Navigation from "./components/Navigation";
+import Contact from "./components/Contact";
 import Resume from "./components/Resume/Resume";
-import Project from "./components/Project/Project";
+import Project from "./components/Project";
 import Footer from "./components/Footer";
-import About from "./components/About/About";
+import About from "./components/About";
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import './index.css';
+import "./index.css";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("Project");

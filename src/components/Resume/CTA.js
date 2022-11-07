@@ -1,5 +1,5 @@
 import CV from '../../assets/Jenny_Deng_Resume_SD.pdf'
-import './Resume.css'
+import '../../style/Resume.css'
 
 const CTA = () => {
   return (

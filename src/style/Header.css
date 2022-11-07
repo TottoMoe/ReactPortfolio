@@ -1,6 +1,6 @@
 header {
   height: 42vh;
-  padding-top: 4rem;
+  padding-top: 10rem;
   overflow: hidden;
 }
 
@@ -8,6 +8,11 @@ header {
   text-align: center;
   height: 100%;
   position: relative;
+  /* height: 42vh;
+  padding-top: rem; */
 }
 
-
+.header__content {
+   height: 42vh;
+  /* padding-top: 4rem; */
+}

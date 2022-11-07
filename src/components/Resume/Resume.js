@@ -1,6 +1,6 @@
 import React from "react";
-import CTA from "../Resume/CTA";
-import './Resume.css'
+import CTA from "./CTA";
+import "../../style/Resume.css";
 import {BsPatchCheckFill} from 'react-icons/bs'
 
 function Resume() {

@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderSocial from "../HeaderSocials/HeaderSocials";
+import HeaderSocial from "./HeaderSocials";
 
 function About(props) {
   return (
