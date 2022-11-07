@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ReactPortfolio/static/css/main.869c1632.css",
+    "main.js": "/ReactPortfolio/static/js/main.3a8df9e6.js",
+    "static/media/pjproject.png": "/ReactPortfolio/static/media/pjproject.1ccbf34ea1a3634ca539.png",
+    "static/media/pj14.png": "/ReactPortfolio/static/media/pj14.f7250bce5aee64ad558a.png",
+    "static/media/p1.jpg": "/ReactPortfolio/static/media/p1.9d677acfc68a38894d11.jpg",
+    "static/media/Jenny_Deng_Resume_SD.pdf": "/ReactPortfolio/static/media/Jenny_Deng_Resume_SD.9a56cbb0e3ff2f55bd54.pdf",
+    "static/media/p3.png": "/ReactPortfolio/static/media/p3.3a19de06824e3929a423.png",
+    "index.html": "/ReactPortfolio/index.html",
+    "main.869c1632.css.map": "/ReactPortfolio/static/css/main.869c1632.css.map",
+    "main.3a8df9e6.js.map": "/ReactPortfolio/static/js/main.3a8df9e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.869c1632.css",
+    "static/js/main.3a8df9e6.js"
+  ]
+}
