@@ -17,7 +17,7 @@ function Navigation({ setCurrentPage }) {
               onClick={() => {
                 setCurrentPage("About");
               }}
-              href="#home"
+              href="#about"
             >
               About
             </Nav.Link>

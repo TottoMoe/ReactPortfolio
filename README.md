@@ -33,8 +33,8 @@ The user should clone the repository from GitHub and download Node.js. This appl
 
 ## Usage Information
 
-- Please open the link below and click on the "Install" button. Then you will see the message and click OK. After you installed the text editor, open it on your local machine.
- [Deploy](https://radiant-forest-41027.herokuapp.com/)
+- Please open the link below and click. 
+ [Deploy](https://tottomoe.github.io/ReactPortfolio/)
 
 ---
 
@@ -42,8 +42,8 @@ The user should clone the repository from GitHub and download Node.js. This appl
 
 ## Test ScreenShot
 
-![Screen-Shot](./Assets/TextEditor.png)
-![Screen-Shot](./Assets/Storage.png)
+![Screen-Shot]()
+![Screen-Shot]()
 
 <a name="questions"></a>
 

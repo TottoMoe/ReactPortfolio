@@ -1,18 +1,15 @@
-header {
-  height: 42vh;
-  padding-top: 10rem;
-  overflow: hidden;
-}
+
 
 .header__container {
   text-align: center;
   height: 100%;
   position: relative;
-  /* height: 42vh;
-  padding-top: rem; */
 }
 
 .header__content {
-   height: 42vh;
-  /* padding-top: 4rem; */
+   /* height: 42vh; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
 }
