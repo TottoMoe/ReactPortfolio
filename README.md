@@ -42,8 +42,10 @@ The user should clone the repository from GitHub and download Node.js. This appl
 
 ## Test ScreenShot
 
-![Screen-Shot]()
-![Screen-Shot]()
+![Screen-Shot](./src/assets/ssAbout.png)
+![Screen-Shot](./src/assets/ssProject.png)
+![Screen-Shot](./src/assets/ssContact.png)
+![Screen-Shot](./src/assets/ssResume.png)
 
 <a name="questions"></a>
 
