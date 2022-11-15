@@ -2,7 +2,7 @@ import React from "react";
 import "../style/Project.css";
 import "./HeaderSocials";
 import HeaderSocials from "./HeaderSocials";
-import pjproject from "../assets/pj16.png";
+import pj21 from "../assets/pj21.png";
 import pj14 from "../assets/pj14.png";
 import pj18 from "../assets/pj18.png";
 import pj19 from "../assets/pj19.png";
@@ -58,18 +58,18 @@ function Project() {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={pjproject} alt="" />
+            <img src={pj21} alt="" />
           </div>
-          <h3>Primary Keys Rentals</h3>
+          <h3>Book Search Engine</h3>
           <a
-            href="https://github.com/TottoMoe/PrimaryKeysRentals"
+            href="https://github.com/TottoMoe/BookSearchEngine"
             className="btn"
             target="__blank"
           >
             Github
           </a>
           <a
-            href="https://primary-keys-rentals.herokuapp.com/login"
+            href="https://obscure-coast-46270.herokuapp.com/"
             className="btn btn-secondary"
             target="__blank"
           >
