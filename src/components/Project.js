@@ -8,6 +8,7 @@ import pj18 from "../assets/pj18.png";
 import pj19 from "../assets/pj19.png";
 import pj12 from "../assets/pj12.png";
 import pj10 from "../assets/pj10.png";
+import pj23 from "../assets/pj23.png";
 
 function Project() {
   return (
@@ -78,18 +79,18 @@ function Project() {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={pj19} alt="TextEditorPWA" />
+            <img src={pj23} alt="Star Chart" />
           </div>
-          <h3>Text Editor PWA</h3>
+          <h3>Star Chart</h3>
           <a
-            href="https://github.com/TottoMoe/TextEditorPWA"
+            href="https://github.com/TottoMoe/star-chart"
             className="btn"
             target="__blank"
           >
             Github
           </a>
           <a
-            href="https://radiant-forest-41027.herokuapp.com/"
+            href="https://star-chart7.herokuapp.com/"
             className="btn btn-secondary"
             target="__blank"
           >
